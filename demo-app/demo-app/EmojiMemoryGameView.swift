@@ -12,7 +12,7 @@ struct EmojiMemoryGameView: View {
             VStack {
                 Text("MEMORY")
                     .font(.system(.largeTitle, design: .rounded))
-                    .fontWeight(.bold)
+                    .fontWeight  (.bold)
                     .multilineTextAlignment(.center)
                 .padding()
                 HStack {
