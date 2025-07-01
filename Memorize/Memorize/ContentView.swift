@@ -17,8 +17,7 @@ import SwiftUI
  Views are immutable
  */
 
-struct ContentView: View {
-    let emojis = ["👻", "🎃", "🕷️", "🦇", "🍬", "🧙‍♀️", "🕸️", "🧛‍♂️", "🕯️", "🍭"]
+struct ContentView: View {cd     let emojis = ["👻", "🎃", "🕷️", "🦇", "🍬", "🧙‍♀️", "🕸️", "🧛‍♂️", "🕯️", "🍭"]
     
     @State var cardCount = 4
     var body: some View {
